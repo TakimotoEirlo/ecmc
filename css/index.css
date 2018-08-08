@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+
+#box {
+    width: 800px;height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+    margin: 200px auto 0;
+}
+#box .title {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    text-indent: 5px;
+    font-size: 13px;
+    padding: 5px 5px;
+}
+#box .title .im {
+    background-image: url(http://www.mcbbs.net/uc_server/avatar.php?uid=97397&size=small);
+    display: block;border-radius: 100%;
+    width: 20px;height: 20px;
+    float: left;
+    text-indent: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav {
+    width: 750px;height: 20px;
+    margin: 40px auto 0;
+}
+.nav li {
+    display: block;
+    width: 33.333%;height: 50px;
+    line-height: 50px;text-align: center;
+    float: left;
+}
+.nav li a {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    border: 1px solid rgb(112, 112, 112);
+    padding: 0 10px;
+    font-size: 14px;
+    -webkit-transition: 0.2s;transition: 0.2s;
+}
+.nav li a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}

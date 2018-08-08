@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/ecmc.css" rel="stylesheet">
+    <link media="(max-width: 1150px)" rel="stylesheet" href="css/varystyle.css">
+    <title>EccentriC Minecraft</title>
+</head>
+<body>
+    <div id="main">
+        <div id="box">
+            <div class="con">
+                <div class="left">
+                    <h1>New EccentriC Minecraft 1995 Preview Version</h1>
+                    <p class="readme">New EccentriC Minecraft 1995(简称new95),是一个冒险主题整合,风格是从最早的"Endcraft Minecraft"传承过来的。</p>
+                    <span class="by">整合制作人：eirlo</span>
+                    <a id="download" title="准备中" class="vary">下载</a>
+                </div>
+                <div class="right">
+                    <img src="../images/game.jpg" alt="Menu">
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="logo">
+            <a class="logo_Ai" title="Ec之镜" href="index.html"></a>
+        </div>
+        <ul>
+            <li><a href="http://www.minecraft.net" title="Minecraft" class="mc block"></a></li>
+            <li class="more_li_1"><a href="https://osu.ppy.sh/" title="osu!" class="os block"></a><a href="http://bloodcat.com/osu/" title="血猫" class="xmo block"></a></li>
+            <li class="more_li_1"><a href="http://www.mihoyo.com/" title="崩坏学园2" class="bh2 block"></a><a href="https://gf.biligame.com/" title="少女前线(bilibili)" class="gsf block"></a></li>
+            <li><a href="https://www.kleientertainment.com/games/dont-starve" title="Don't Starve" class="ds block"></a></li>
+            <li><a href="https://store.steampowered.com/app/322170/Geometry_Dash/" title="Geometry Dash" class="gd block"></a></li>
+            <li><a href="http://www16.big.or.jp/~zun/" title="上海爱丽丝幻乐团" class="th block"></a></li>
+            <li class="more_li_1"><a href="http://opera.com" title="Opera" class="op block"></a><a href="http://vivaldi.com" title="Vivaldi" class="vi block"></a></li>
+            <li><a href="https://zh.moegirl.org" title="萌娘百科" class="mg block"></a></li>
+            <li><a href="http://iirose.com" title="蔷薇花园" class="iirose block"></a></li>
+            <span class="Xmusic_input"  title="虾米播播"></span>
+            <span class="sidebar_hide"  title="隐藏侧边栏"></span>
+            <span class="setting" title="设置"></span>
+        </ul>
+    </div>
+    <div class="sidebar_hide_show"></div>
+    <div class="settings">
+        <div class="setting_title">
+            <h1>设置</h1>
+        </div>
+        <div class="setting_option_box">
+            <div class="spaceWhite">更多按钮将会出现在这里.</div>
+        </div>
+        <div class="settings_win_off" title="关闭窗口">x</div>
+    </div>
+    <script>
+            $(".sound").hide()
+            $(".color_box").hide()
+            $(".sound").hide()
+            $(".settings").hide()
+            $(".i01").hide()
+        
+        
+            $(".qqmusic").hide()
+            $(".p7").hide()
+            $(".qqmusic").show(1000)
+            $(".p7").show(1000)
+        
+            $(".sidebar").animate({
+                    left: 0
+                }, 400)
+            $(".header").animate({
+                    top: 0
+                }, 550)
+            $(".sidebar_hide_show").animate({
+                    left: 0
+                }, 400)
+        
+                $(".in_a").click(
+                            function() {
+                                $(".i01").stop()
+                                $(".i01").show(800)
+                            }
+                        )
+                $(".setting").click(
+                    function() {
+                        $(".settings").stop()
+                        $(".settings").show(470)
+                    }
+                )
+                $(".settings_win_off").click(
+                    function() {
+                        $(".settings").stop()
+                        $(".settings").hide(470)
+                    }
+                )
+                $(".sidebar_hide").click(
+                    function() {
+                        $(".sidebar").stop()
+                        $(".sidebar").animate({
+                            left:-50
+                        },400)
+                    }
+                )
+                $(".sidebar_show,.sidebar_hide_show").click(
+                    function() {
+                        $(".sidebar").stop()
+                        $(".sidebar").animate({
+                            left:0
+                        },390)
+                    }
+                )
+        $(".Xmusic_input").click(
+                    function() {
+                        $(".Xmusic").stop()
+                        $(".Xmusic").animate({
+                            left:44
+                        },390)
+                    }
+                )
+        $("#Xmusic_off").click(
+                    function() {
+                        $(".Xmusic").stop()
+                        $(".Xmusic").animate({
+                            left:-244
+                        },390)
+                    }
+                )
+        </script>
+</body>
+</html>

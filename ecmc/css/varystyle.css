@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+#box {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#box .con {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#box .left {
+    float: inherit;
+}
+#box .right {
+    float: inherit;
+    margin: 0 auto;
+}
+#box .right img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+.left h1 {
+    width: 90%;
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 4rem 0 1rem 0;
+}
+.readme {
+    margin: 0 auto;
+    width: 80%;
+    font-size: 1rem;
+    color: rgb(168, 168, 168);
+    padding: 1rem;
+}
+#download {
+    width: 80%;
+    margin: 1rem auto;
+}
+.left .by {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.settings {
+    width: 100%;
+    margin: 0 auto;height: 100%;
+    background-color: #373737f3;
+    position: fixed;z-index: 150;
+    top: 0;left: 0;
+}
+.setting_title {
+    border-bottom: #6d6d6d 0.09rem solid;
+}
+.setting_title h1 {
+    font-family: "宋体";font-size: 0.9rem;
+    color: #6d6d6d;line-height: 3rem;
+    margin: 5px 0 0 10px;
+}
+.setting_option_box {
+    color: white;width: 98%;margin: 0 auto;
+    padding: 10px 0;font-size: 1rem;
+}
+.settings_win_off {
+    width: 100%;height: 2.6rem;
+    background-color: white;
+    line-height: 2.6rem;
+    font-size: 1rem;font-weight: bold;
+    position: absolute;
+    bottom: 0;left: 0;
+    cursor: pointer;
+    font-family: "微软雅黑";
+}
+.settings_win_off:hover{
+    background-color: lime;
+    color: white;
+}
+.sidebar_hide_show {
+    bottom: 0;left: 0;
+}

@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+img {
+    margin: 0;padding: 0;
+}
+.clear {
+    clear:both;
+}
+#box {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#box .con {
+    width: 1150px;
+    margin: 200px auto 0;
+    padding: 100px 0;
+}
+#box .left {
+    float: left;
+}
+.left h1 {
+    color: white;
+    width: 550px;
+    font-size: 24px;
+    margin: 40px 0;
+}
+.left .by {
+    color: rgb(9, 90, 59);
+}
+#download {
+    display: block;
+    width: 90px;height: 36px;
+    margin: 20px 0px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    background-color: rgba(9, 83, 145, 0.5);
+    border: 1px solid rgba(9, 83, 145, 1);
+}
+#download:hover {
+    background-color: rgba(9, 83, 145, 1);
+}
+.readme {
+    width: 500px;
+    color: rgb(122, 122, 122);
+    font-size: 13px;
+    line-height: 20px;
+}
+#box .right {
+    float: right;
+}
+.right img {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 600px;
+}
