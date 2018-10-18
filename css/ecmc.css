@@ -28,8 +28,9 @@ img {
 }
 #download {
     display: block;
-    width: 90px;height: 36px;
-    margin: 20px 0px;
+    width: 100px;height: 36px;
+    padding: 0 10px 0 10px;
+    margin: 10px 0 4px 0;
     line-height: 36px;
     text-align: center;
     color: white;
@@ -52,4 +53,20 @@ img {
 .right img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 600px;
+}
+.paper {
+    background-color: rgba(27, 27, 27, 0.5);
+    width: 80%;
+    margin: 1em 0 0;
+    padding: 1% 0 10px 1%;
+}
+.paper li {
+    font-size: 13px;
+    color: rgb(104, 104, 104);
+    padding: 0.2em 0 0 0;
+}
+.paper .v {
+    color: orange;
+    font-size: 13px;
+    padding: 0 0.5em;
 }
