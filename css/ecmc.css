@@ -8,6 +8,7 @@ img {
 }
 #box {
     background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
 }
 #box .con {
     width: 1150px;
