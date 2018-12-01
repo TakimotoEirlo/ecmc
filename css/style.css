@@ -4,6 +4,7 @@ body {
     margin: 0;padding: 0;
     background-color: #404040;
 }
+p { padding: 0;margin: 0; }
 a {text-decoration: none;color: #404040;}
 ul,li,dl,dd,dt {margin: 0;padding: 0;list-style: none;}
 .clearInfix {clear: both;}
@@ -22,6 +23,7 @@ h1,h2,h3,h4,h5,h6 {
     position: fixed;
     top: 0;
     z-index: 10;
+    overflow: auto;
 }
 
 
@@ -159,13 +161,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 /* 设置窗口 */
 .settings {
-    margin: 0 auto;width: 800px;height: 500px;
+    margin: 0 auto;width: 700px;
     background-color: #373737;
-    margin-top: 150px;
+    margin-top: 3%;
     border: 1px solid #6d6d6d;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
     position: fixed;z-index: 50;
-    top: 5%;left: 50%;margin-left: -400px;
+    top: 5%;left: 50%;margin-left: -350px;
+    min-height: 400px;
 }
 .setting_title {
     margin: 0 auto;width: 98%;

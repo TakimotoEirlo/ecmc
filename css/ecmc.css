@@ -71,3 +71,187 @@ img {
     font-size: 13px;
     padding: 0 0.5em;
 }
+
+/* mod */
+
+.modlist {
+    width: 600px;
+    margin: 0 auto 12px;
+    height: 100px;clear: both;
+}
+.modlist li {
+    float: left;
+    display: block;
+    width: 90px;
+    height: 30px;
+    font-size: 13px;
+    border:1px solid rgba(9, 83, 145, 1);
+    margin-left: 10px;
+}
+.modsort {
+ display: block;
+ width: 600px;
+ margin: 0 auto;
+ height: 40px;
+ line-height: 40x;
+ text-align: left;   
+}
+
+/* 导航 */
+header {
+    position: fixed;
+    z-index: 100;
+    width: 500px;margin: 0 auto;
+    background-color: rgb(44, 44, 44);
+    height: 30px;
+    box-shadow: 1px 1px 1px rgba(44, 44, 44, 0.397);
+    left: 50%;margin-left: -250px;
+}
+.nav {
+    float: right;
+    line-height: 30px;
+}
+.nav li {
+    float: left;
+    font-size: 13px;
+}
+.nav li:hover {
+    background-color: white;
+}
+.nav li a {
+    display: block;
+    color: rgb(126, 126, 126);
+    padding: 0 10px 0 10px;
+}
+.title {
+    float: left;
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+    text-indent: 10px;
+}
+
+/* banner区 */
+.ban {
+    width: 900px;
+    height: 300px;
+    margin:  100px auto 0;
+}
+.dow {
+    float: left;
+    width: 400px;
+    height: 300px;
+}
+.dow h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline;
+    font-size: 28px;
+    text-align: left;
+    padding: 0 3px;
+}
+.dow h3 {
+    font-size: 24px;
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: inline;
+    padding: 0 3px;
+}
+.dow h3 span {
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(136, 136, 136);
+}
+.dow h4 {
+    color: rgb(184, 183, 183);
+    font-size: 15px;
+    line-height: 40px;
+}
+.dow p {
+    font-size: 12px;
+    color: rgb(122, 122, 122);
+    line-height: 18px;
+    clear: both;
+}
+.download {
+    display: block;
+    width: 160px;height: 40px;line-height: 40px;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+    border-left: 1px solid springgreen;
+    margin: 0 10px 10px 0;
+    float: left;
+    font-size: 13px;
+}
+.download:hover {
+    background-color: springgreen;
+    color: black;
+}
+
+.imgbox {
+    float: right;
+    width: 500px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.253);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.imgbox img {
+    width: 100%;
+}
+
+/* 介绍区域 */
+.pro {
+    width: 900px;
+    margin: 0 auto 0px;
+}
+.pro p {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 10px;
+}
+.J1 {
+    width: 900px;
+    height: 340px;
+    background-image: url(../ecmc/imgs/yz.jpg);
+    background-size: 100%;
+    position: relative;
+}
+.J1 p {
+    bottom: 0px;
+    right: 0px;
+    width: 540px;
+}
+.J2 {
+    position: relative;
+    width: 320px;
+    height: 260px;
+    margin: 20px 0 0;
+    background-image: url(../ecmc/imgs/yz3.jpg);
+    float: left;
+    background-size: cover;
+}
+.J2 p {
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+.J3 {
+    width: 560px;
+    height: 260px;
+    margin: 20px 0 0;
+    background-image: url(../ecmc/imgs/yz2.jpg);
+    float: right;
+    background-position: 0 -10px;
+}
+
+/* 底部 */
+footer {
+    clear: both;
+    height: 50px;
+}

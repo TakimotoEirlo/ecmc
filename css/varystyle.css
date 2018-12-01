@@ -6,8 +6,8 @@
     height: 100%;
 }
 #box .nav {
-    width: 70%;
-    margin: 2rem auto 0;
+    width: 70%;height: auto;
+    margin: 1rem auto 0;
 }
 #box .nav li {
     display: block;
@@ -18,4 +18,8 @@
 }
 #box .nav li a {
     width: auto;
+}
+h1,h2 {
+    text-align: center;
+    text-indent: 0;
 }

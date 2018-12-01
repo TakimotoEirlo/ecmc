@@ -2,10 +2,15 @@
 
 
 #box {
-    width: 800px;height: 200px;
+    width: 800px;height: 600px;
     background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-    margin: 200px auto 0;
+    margin: 100px auto 0;
+}
+ h1,h2 {
+    color: rgb(41, 41, 41);
+    padding: 10px 0 10px;
+    text-indent: 30px;
 }
 #box .title {
     width: 100%;
@@ -26,12 +31,12 @@
 }
 .nav {
     width: 750px;height: 20px;
-    margin: 40px auto 0;
+    margin: 10px auto 40px;
 }
 .nav li {
     display: block;
-    width: 33.333%;height: 50px;
-    line-height: 50px;text-align: center;
+    width: 33.333%;height: 40px;
+    line-height: 40px;text-align: center;
     float: left;
 }
 .nav li a {
@@ -48,4 +53,9 @@
     background-color: black;
     color: white;
     border: 1px solid black;
+}
+dl {
+    margin-left: 30px;
+    color: rgb(109, 109, 109);
+    font-size: 14px;
 }
